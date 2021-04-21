@@ -1,0 +1,12 @@
+docs/core
+docs/Electron
+.jekyll-cache/
+
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+node_modules
