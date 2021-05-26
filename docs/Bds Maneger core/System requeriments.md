@@ -63,7 +63,7 @@ We have a docker image to be used on all platforms, even in the ARM64 architectu
         - Start server with ~3 minutes
 
         - Connection to the server may take more than 10 minutes
-* Oracle Cloud
+* Oracle Cloud Computing Instance Aarch64 (Arm64)
     * 8 CPU, 8GB RAM, 52GB block storage
         - Started the server in less than 45 seconds the Minecraft Bedrock server.
 
