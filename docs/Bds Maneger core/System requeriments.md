@@ -64,10 +64,12 @@ We have a docker image to be used on all platforms, even in the ARM64 architectu
 
         - Connection to the server may take more than 10 minutes
 * Oracle Cloud Computing Instance Aarch64 (Arm64)
-    * 8 CPU, 8GB RAM, 52GB block storage
+    * 8 CPU, 8GB RAM, 52GB block storage (Docker Image)
         - Started the server in less than 45 seconds the Minecraft Bedrock server.
 
-        - time out test not yet tested.
+        - No time outs when connecting.
+
+        - some very small lags when you break the blocks.
 
 so that we have support for Minecraft Bedrock Server (Dedicated server) on arm64 vote on this [mojang feedback page](https://feedback.minecraft.net/hc/en-us/community/posts/360022601432-Dedicated-Servers-for-ARM-Devices).
 
