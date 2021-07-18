@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GUI support on different systems
-parent: The Bds Maneger
+parent: The Bds Maneger Electron
 ---
 
 # System Support

@@ -8,9 +8,7 @@ parent: Bds Maneger core
 
 O Bds Maneger core necessita de duas coisas para funcionar de forma que tudo não falhe:
 
-  1. [`curl/wget` command](../CurlWget/)
-
-  2. NodeJS or electron with the `nodeIntegration: true`, `sandbox: false` and `enableRemoteModule: true`
+  1. NodeJS or electron with the `nodeIntegration: true`, `sandbox: false` and `enableRemoteModule: true`
 
 
 # Minecraft Java server

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Custom pages with Bds Maneger
-parent: The Bds Maneger
+parent: The Bds Maneger Electron
 ---
 
 # Custom pages with the electron

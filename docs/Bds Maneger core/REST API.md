@@ -10,82 +10,89 @@ Bds Maneger Core has a REST Api that interacts with the entire server (end to en
 
 ### get server, system and bds maneger core info:
 
-["http://localhost:1932/info"](http://localhost:1932/info) (HTTP GET)
+["http://localhost:1932/bds/info"](http://localhost:1932/bds/info) (HTTP GET)
 
-return:
-
+Alway Response:
 ```json
 {
-  "version": "1.9.1.2",
   "server": {
-    "platform": "bedrock",
-    "world_name": "Bedrock level",
-    "running": true,
-    "port": 19132,
-    "port6": 19133,
-    "max_players": 10,
-    "whitelist": false
+      "platform": "String",
+      "world_name": "String",
+      "running": "Boolean",
+      "port": "String",
+      "port6": "String",
+      "max_players": "String",
+      "whitelist": "String"
   },
   "sys": {
-    "arch": "x64",
-    "system": "linux",
-    "Kernel": "Generic Kernel x64: Intel(R) Core(TM)2 Duo CPU     E7500  @ 2.93GHz",
-    "IS_CLI": true,
-    "IS_DOCKER": false,
-    "IS_NPX": false,
-    "QEMU_STATIC": {
-      "x64": true,
-      "x86": true
-    }
+      "arch": "String",
+      "system": "String",
+      "Kernel": "String",
+      "IS_CLI": "Boolean",
+      "IS_DOCKER": "Boolean",
+      "IS_NPX": "Boolean",
+      "QEMU_STATIC": "Boolean"
   },
   "bds_maneger_core": {
-    "server_versions": {
-      "bedrock": "1.16.221.01",
-      "java": null,
-      "pocketmine": null,
-      "jsprismarine": "latest"
-    },
-    "server_ban": [
-      "Steve",
-      "Alex",
-      "steve",
-      "alex"
-    ],
-    "telegram_admin": [
-      "all_users"
-    ]
+      "version": "String",
+      "server_versions": "Object",
   }
 }
 ```
 
+### Server download
+
+["http://localhost:1932/bds/download"](http://localhost:1932/bds_download) (HTTP POST)
+
+Body
+  - version:
+    - latest
+    - StringVersion
+  - token: Bds Maneger Token
+
+response 200:
+  - Status:
+    - true
+    - false
+
+### Upload World (Alpha)
+
+["http://localhost:1932/bds/upload"](http://localhost:1932/upload_world) (HTTP POST)
+
+Body
+  - version
+    - latest
+    - StringVersion
+  - token: Bds Maneger Token
+
+Response 200:
+  - Status
+    - true
+    - false
+
 ### Download backup world and configs
 
-["http://localhost:1932/download_backup"](http://localhost:1932/download_backup) (HTTP GET)
+["http://localhost:1932/download_backup"](http://localhost:1932/backup) (HTTP GET)
 
-Require Parameters: ?token=StringToken
+- Query:
+  - token: Bds Maneger Token
 
-return: Zip file download.
+Response 200
+  - Zip file download.
+
+Response 400
+  - Error: String
 
 ### Bds Basic Services
 
 ["http://localhost:1932/service"](http://localhost:1932/service) (HTTP GET/POST)
 
-Require body: command=[stop, start, restart], token=StringToken
+Body
+  - command: 
+    - stop
+    - start
+    - restart
+  - token: Bds Maneger Token
 
-return: Status command
-
-### Server download
-
-["http://localhost:1932/bds_download"](http://localhost:1932/bds_download) (HTTP POST)
-
-Require body: version=[latest, StringVersion], token=StringToken
-
-return: Status
-
-### Upload World (Alpha)
-
-["http://localhost:1932/upload_world"](http://localhost:1932/upload_world) (HTTP POST)
-
-Require body: version=[latest, StringVersion], token=StringToken
-
-return: Status
+response 200:
+  - Status: true

@@ -7,3 +7,4 @@ permalink: /licence
 
 # The Bds Maneger Core licence
 
+Draft

@@ -5,7 +5,7 @@ parent: Bds Maneger core
 ---
 
 [msc++]: https://aka.ms/vs/16/release/vc_redist.x64.exe
-[chakra]: https://github.com/The-Bds-Maneger/Raw_files/raw/main/WindowsDll/Chakra.dll
+[chakra]: https://github.com/The-Bds-Maneger/external_files/raw/main/Windows/dll/Chakra.dll
 
 * These Fixes are for X64 architectures (Amd64) any other architecture will not work.
 
