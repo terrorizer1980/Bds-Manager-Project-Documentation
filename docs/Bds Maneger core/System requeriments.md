@@ -15,19 +15,15 @@ O Bds Maneger core necessita de duas coisas para funcionar de forma que tudo nã
 
 If you have not installed Java here we have some commands and sites to download Java SE/JDK
 
-## Windows
+## Windows And MacOS
 
-[Oracle Oficial download pages](https://www.java.com/download/help/windows_manual_download.html)
-
-## MacOS
-
-[Oracle JDK](https://www.java.com/download/help/mac_install.html) and [Java SE](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+[Oracle Oficial download pages](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 ## Linux
 
-Ubuntu, Debian and others that are based on debian: `# apt install openjdk-11-jdk-headless openjdk-11-jdk openjdk-11-jre-headless openjdk-11-jre`.
+Ubuntu, Debian and others that are based on debian: `# apt install openjdk-16-jdk-headless openjdk-16-jdk openjdk-16-jre-headless openjdk-16-jre`.
 
-Suse, OpenSUSE, Red Hat, CentOS, Fedora, Oracle Linux: [From Oracle Site](https://www.java.com/en/download/help/linux_install.html#rpm)
+Suse, OpenSUSE, Red Hat, CentOS, Fedora, Oracle Linux: [From Oracle Site](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 ------------
 # Notes
