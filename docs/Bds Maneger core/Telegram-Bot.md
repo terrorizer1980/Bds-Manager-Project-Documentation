@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Bds Maneger Core - Telegram BOT (depracated)
+title: Bds Maneger Core - Telegram BOT
 parent: Bds Maneger core
 ---
 
-# Core Telegram bot
+# Telegram bot
 
-We are moved to a separate binary
+Docs?
