@@ -3,7 +3,7 @@ layout: default
 title: The Back End
 permalink: Back End
 has_children: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## A little heart of the manager

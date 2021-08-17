@@ -3,7 +3,7 @@ layout: default
 title: Bds Maneger core
 permalink: Bds Maneger core
 has_children: true
-nav_order: 2
+nav_order: 5
 ---
 
 # The Manager's Heart

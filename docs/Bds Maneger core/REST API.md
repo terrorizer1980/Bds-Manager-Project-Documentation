@@ -42,7 +42,7 @@ Alway Response:
 
 ### Server download
 
-["http://localhost:1932/bds/download"](http://localhost:1932/bds_download) (HTTP POST)
+["http://localhost:1932/bds/download"](http://localhost:1932/bds/download) (HTTP POST)
 
 Body
   - version:
@@ -57,7 +57,7 @@ response 200:
 
 ### Upload World (Alpha)
 
-["http://localhost:1932/bds/upload"](http://localhost:1932/upload_world) (HTTP POST)
+["http://localhost:1932/bds/upload"](http://localhost:1932/bds/upload) (HTTP POST)
 
 Body
   - version
@@ -72,7 +72,7 @@ Response 200:
 
 ### Download backup world and configs
 
-["http://localhost:1932/download_backup"](http://localhost:1932/backup) (HTTP GET)
+["http://localhost:1932/bds/backup"](http://localhost:1932/bds/backup) (HTTP GET)
 
 - Query:
   - token: Bds Maneger Token
@@ -83,16 +83,11 @@ Response 200
 Response 400
   - Error: String
 
-### Bds Basic Services
+### Log
 
-["http://localhost:1932/service"](http://localhost:1932/service) (HTTP GET/POST)
+["http://localhost:1932/log"](http://localhost:1932/log) (HTTP GET)
 
-Body
-  - command: 
-    - stop
-    - start
-    - restart
-  - token: Bds Maneger Token
-
-response 200:
-  - Status: true
+Query:
+  - format:
+    * JSON (Array) - Default
+    * HTML `<div class="BdsCoreLog"><p>LOG_LINE</p></div>`
