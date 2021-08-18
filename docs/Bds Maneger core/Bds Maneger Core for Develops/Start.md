@@ -1,7 +1,8 @@
 ---
 layout: default
-title: (Develop) Start Server
-parent: Bds Maneger core
+title: Start Server
+parent: "Bds Maneger Core for Develops"
+grand_parent: "Bds Maneger core"
 ---
 
 # Start function

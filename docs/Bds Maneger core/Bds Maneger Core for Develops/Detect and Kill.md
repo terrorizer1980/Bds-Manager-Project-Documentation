@@ -1,7 +1,8 @@
 ---
 layout: default
-title: (Develop) Kill Server
-parent: Bds Maneger core
+title: Detect and Kill Server
+parent: "Bds Maneger Core for Develops"
+grand_parent: Bds Maneger core
 ---
 
 # A simple way to kill running servers

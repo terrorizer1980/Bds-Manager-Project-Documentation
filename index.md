@@ -8,6 +8,12 @@ permalink: /
 
 # The Bds Maneger Project
 
-Bds Maneger is a server manager for Minecraft servers, in addition to including a versatile rest.
+Hello, Welcome to the Bds Manager Project Documentation. Here we will have all references to Bds Maneger Core and its projects.
 
-We also have several other projects within The Bds Maneger Project for total integration in a complete system.
+## For Developers
+
+For those starting a project based on Bds Maneger, read the [For Develops](<docs/Bds Maneger core/Bds Maneger Core for Develops/Bds Maneger Core for Develops/>) in Bds Maneger Core Documentation.
+
+## Need help??
+
+For Bds Maneger CLI, [click here](<docs/Bds Maneger core/Bds Maneger CLI>)
