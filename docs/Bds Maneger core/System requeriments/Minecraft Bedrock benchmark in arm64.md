@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Minecraft Bedrock benchmark in Aarch64 (arm64)
+title: Minecraft Bedrock benchmark in arm64
 grand_parent: Bds Maneger core
 parent: System requirements
 ---
